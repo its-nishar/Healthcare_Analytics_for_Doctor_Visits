@@ -150,7 +150,6 @@ Spearman correlation is used to compare the relationships between numerical vari
 
 ## 📈 Data Analysis Workflow
 
-```text
                  Healthcare Dataset
                          ↓
                   Data Understanding
