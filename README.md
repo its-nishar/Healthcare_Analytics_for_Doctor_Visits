@@ -242,20 +242,8 @@ The results can support exploratory analysis and healthcare-utilization research
 
 ---
 
-## 📁 Project Structure
+## 👩‍💻 Author
 
-```text
-Healthcare-Analytics-for-Doctor-Visits/
-│
-├── 01_Project_Report/
-│
-├── 02_Dataset/
-│   └── Healthcare Analytics for Doctor Visits.csv
-│
-├── 03_Colab/
-│   └── Healthcare_Analytics_for_Doctor_Visits.ipynb
-│
-├── 04_Presentation/
-│   └── Healthcare_Analytics_for_Doctor_Visits.pptx
-│
-└── README.md
+**Nisha R**  
+B.Tech Artificial Intelligence and Data Science  
+Ramco Institute of Technology
