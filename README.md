@@ -174,3 +174,89 @@ Spearman correlation is used to compare the relationships between numerical vari
                   Key Insights
                          ↓
                     Conclusion
+
+## 📊 Key Analytical Findings
+
+The analysis identified the following patterns in the healthcare dataset:
+
+- Doctor visits are concentrated around lower visit counts.
+- Reduced activity shows a positive association with doctor visits.
+- Illness shows a positive association with doctor visits.
+- The recorded health variable shows a positive association with visits.
+- Age shows a positive statistical association with doctor visits.
+- Income shows a weak negative association with visits.
+- Differences are observed across gender groups.
+- Chronic-condition and healthcare-access indicators show different visit patterns across their respective categories.
+
+### Spearman Associations with Doctor Visits
+
+| Variable | Spearman Correlation |
+|---|---:|
+| Reduced Activity | **0.336** |
+| Illness | **0.263** |
+| Health | **0.178** |
+| Age | **0.148** |
+| Income | **-0.093** |
+
+> **Note:** These values represent statistical associations observed in this dataset. They do not establish causal relationships or provide individual medical conclusions.
+
+---
+
+## 💡 Key Insights
+
+### 🏥 Health-Related Factors
+
+Reduced activity and illness show notable positive associations with doctor visits.
+
+### 👥 Demographic Factors
+
+Age and gender show observable differences in doctor-visit patterns.
+
+### 🩺 Chronic Conditions
+
+Chronic-condition indicators provide additional information for understanding healthcare utilization.
+
+### 🏨 Healthcare Access
+
+Healthcare-access variables show different visit patterns across their respective categories.
+
+### 📈 Statistical Analysis
+
+Spearman correlation was used to compare the strength and direction of relationships between numerical variables and doctor visits.
+
+The Mann-Whitney U test was also used to examine differences between gender groups.
+
+---
+
+## 👥 Potential End Users
+
+This project can be useful for:
+
+- Healthcare Providers
+- Healthcare Administrators
+- Healthcare Researchers
+- Data Analysts
+- Healthcare Planning Teams
+- Students learning Healthcare Analytics
+
+The results can support exploratory analysis and healthcare-utilization research.
+
+---
+
+## 📁 Project Structure
+
+```text
+Healthcare-Analytics-for-Doctor-Visits/
+│
+├── 01_Project_Report/
+│
+├── 02_Dataset/
+│   └── Healthcare Analytics for Doctor Visits.csv
+│
+├── 03_Colab/
+│   └── Healthcare_Analytics_for_Doctor_Visits.ipynb
+│
+├── 04_Presentation/
+│   └── Healthcare_Analytics_for_Doctor_Visits.pptx
+│
+└── README.md
